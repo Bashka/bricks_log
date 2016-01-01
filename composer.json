@@ -1,0 +1,25 @@
+{
+    "name": "bashka/bricks_log",
+    "version": "1.0",
+    "description": "Механизм логирования",
+    "license": "GNU-3.0",
+    "authors": [
+        {
+            "name": "Artur Sh. Mamedbekov",
+            "email": "Artur-Mamedbekov@yandex.ru"
+        }
+    ],
+    "require": {
+      "php": ">=5.5.0",
+      "psr/log": "1.0.0"
+    },
+    "autoload": {
+      "classmap": [
+        "Manager.php",
+        "RelationDbLogger.php",
+        "FileLogger.php",
+        "Filter.php",
+        "Hub.php"
+      ]
+    }
+}
